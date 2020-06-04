@@ -27,6 +27,7 @@ def getDescriptorValInterpolation():
 				"expects": ["tabValues", "tabTimestamp"],
 				"returns": ["tabValues"],
 				"functionality": "OVI", 
+				"image": "ovi.png",
 				"Qf": [{"Cost" : "15"},{"Usage": "4"}]
 				}],
 			"Link": [{
