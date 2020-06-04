@@ -27,6 +27,7 @@ def getDescriptorValDetection():
 				"expects": ["tabValues"],
 				"returns": ["tabTimestamp"],
 				"functionality": "OVD", 
+				"image": "ovd.png",
 				"Qf": [{"Cost" : "0"},{"Usage": "24"}]
 				}],
 			"Link": [{
