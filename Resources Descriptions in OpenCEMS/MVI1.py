@@ -22,13 +22,13 @@ def getDescriptorValInterpolation():
 			"@id": "http://51.77.148.187:5001/resourceDescription/missvalinterpolation.md",
 			"entrypoint": "http://51.77.148.187:5001/resource/missvalinterpolation",
 			"location": "",
-			"image": "mvi.png",
 			"Qres": [{"Dynamicity" : "0"},{"Availability" : "79"}],
 			"Operation": [{
 				"method": "GET",
 				"expects": ["tabValues", "tabTimestamp"],
 				"returns": ["tabValues"],
 				"functionality": "MVI", 
+				"image": "mvi.png",
 				"Qf": [{"Cost" : "5"},{"Usage": "29"}]
 				}],
 			"Link": [{
