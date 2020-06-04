@@ -21,6 +21,7 @@ def getDescriptorValDetection():
 			"@id": "http://51.77.148.187:5001/resourceDescription/missvaldet.md",
 			"entrypoint": "http://51.77.148.187:5001/resource/missvaldet",
 			"location": "",
+			"image": "mvd.png",
 			"Qres": [{"Dynamicity" : "0"},{"Availability" : "95"}],
 			"Operation": [{
 				"method": "GET",
