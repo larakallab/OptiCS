@@ -21,13 +21,13 @@ def getDescriptorAirTemperature():
 			"@id": "http://51.77.148.187:5001/resourceDescription/getAirTemperature.md",
 			"entrypoint": "http://51.77.148.187:5001/resource/getairtemperature",
 			"location": "Zone1",
-			"image": "atc.png",
 			"Qres": [{"Dynamicity" : "0"},{"Availability" : "70"}],
 			"Operation": [{
 				"method": "GET",
 				"expects": ["h2g:startdate", "h2g:enddate"],
 				"returns": ["schema:DateTime", "schema:Float"],
 				"functionality": "ATC", 
+				"image": "atc.png",
 				"Qf": [{"Cost" : "10"},{"Usage": "15"}]
 				}],
 			"Link": [{
