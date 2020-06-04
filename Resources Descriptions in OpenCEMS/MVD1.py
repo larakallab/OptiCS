@@ -21,13 +21,13 @@ def getDescriptorValDetection():
 			"@id": "http://51.77.148.187:5001/resourceDescription/missvaldetection.md",
 			"entrypoint": "http://51.77.148.187:5001/resource/missvaldetection",
 			"location": "",
-			"image": "mvd.png",
 			"Qres": [{"Dynamicity" : "0"},{"Availability" : "50"}],
 			"Operation": [{
 				"method": "GET",
 				"expects": ["tabValues"],
 				"returns": ["tabTimestamp"],
 				"functionality": "MVD", 
+				"image": "mvd.png",
 				"Qf": [{"Cost" : "20"},{"Usage": "25"}]
 				}],
 			"Link": [{
