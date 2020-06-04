@@ -21,6 +21,7 @@ def getDescriptorAirTemperature():
 			"@id": "http://51.77.148.187:5001/resourceDescription/collectClimTemperature.md",
 			"entrypoint": "http://51.77.148.187:5001/resource/collectclimtemperature",
 			"location": "Zone1",
+			"image": "ctc.png",
 			"Qres": [{"Dynamicity" : "0"},{"Availability" : "40"}],
 			"Operation": [{
 				"method": "GET",
