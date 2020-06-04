@@ -27,6 +27,7 @@ def getDescriptorValInterpolation():
 				"expects": ["tabValues", "tabTimestamp"],
 				"returns": ["tabValues"],
 				"functionality": "MVI", 
+				"image": "mvi.png",
 				"Qf": [{"Cost" : "15"},{"Usage": "4"}]
 				}],
 			"Link": [{
