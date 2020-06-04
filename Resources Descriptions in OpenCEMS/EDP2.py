@@ -21,13 +21,13 @@ def getDescriptorEnergyHeatPrediction():
 			"@id": "http://51.77.148.187:5001/resourceDescription/predheateng.md",
 			"entrypoint": "http://51.77.148.187:5001/resource/predheateng",
 			"location": "",
-			"image": "edp.png",
 			"Qres": [{"Dynamicity" : "0"},{"Availability" : "85"}],
 			"Operation": [{
 				"method": "GET",
 				"expects": ["tabValues", "tabTimestamp"],
 				"returns": ["tabValues"],
 				"functionality": "EDP",
+				"image": "edp.png",
 				"Qf": [{"Cost" : "10"},{"Usage": "15"}]
 				}],
 			"Link": [{
