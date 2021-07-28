@@ -4,7 +4,7 @@ from flask import Blueprint
 from flask import Flask, json
 from flask import Response
 from flask import request
-from flask import jsonify, make_response
+from flask import jsonify
 
 from random import randint
 
